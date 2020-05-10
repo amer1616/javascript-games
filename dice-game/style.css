@@ -1,0 +1,38 @@
+body {
+  font-size: 15pt;
+}
+
+#gameArea {
+  width: 350px;
+  height: 400px;
+  padding: 5px;
+}
+
+#output{
+  margin-bottom: 5px;
+  text-align: center;
+}
+#player1,
+#player2 {
+  display: inline-block;
+  width: 140px;
+  height: 200px;
+  border: 1px solid black;
+  font-size: 4em;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+.green{
+  background-color: green;
+  color: white;
+}
+.purple{
+  background-color: purple;
+  color: white;
+}
